@@ -1,0 +1,52 @@
+@media only screen and (min-width:200px)and (max-width:575px) {
+    .address {
+        padding: 20px 20px;
+    }
+
+    .address h3 {
+        font-size: 14px;
+    }
+
+    .address p {
+        font-size: 9px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        align-items: stretch;
+        margin: 10px;
+        border: none;
+       
+    }
+    .logo,.address{
+         padding-top: 0%;
+         padding-bottom: 2px;
+    }
+    .right{
+         position: fixed;
+        bottom: 0%;
+        
+        justify-content: center;
+        display: none;
+       
+    }
+    .subbanner{
+        flex-direction: column;
+        margin: 2px;
+    }
+    .subitem{
+    flex-basis: 28%;
+    margin: 1%;
+}
+a img{
+    width: 100px;
+}
+.cags{
+
+    flex-wrap: wrap;
+}
+.headingrow{
+    margin: 10px;
+}
+}

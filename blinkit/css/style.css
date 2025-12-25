@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+header{
+display: flex;
+border-top: 1px solid #f2f2f2;
+border-bottom: 1px solid #f2f2f2;
+align-items: center;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 25px 30px;
+    border-right: 1px solid #f2f2f2;
+}
+.address{
+  padding: 20px 30px;
+}
+.address h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.address p{
+    font-size: 13px;
+}
+.center{
+   
+   
+   display: flex;
+   flex-grow: 1;
+   border: 1px solid #f2f2f2;
+   border-radius: 10px;
+   background-color: #f2f2f2;
+margin: 1px;
+}
+.center input{
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+    
+}
+.center input:focus{
+    outline: none;
+}
+
+.center button{
+   background-color: transparent;
+    padding: 15px;
+    border: none;
+    
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+    
+}
+.right button{
+    padding: 15px 30px;
+    background-color: transparent;
+    font-size: medium;
+    margin-right: 30px;
+    border: none;
+    color: rgba(0, 0, 0, 0.826);
+   
+    
+}
+.right button:last-child{
+    background-color: rgb(12,131,31);
+    border-radius: 10px;
+    color: white;
+}
+.mainbanner {
+   
+    max-width: 1280px;
+    margin: auto;
+    
+}
+.mainbanner img{
+   width: 100%;
+   
+}
+.subbanner{
+    max-width: 1280px;
+    display: flex;
+    margin: auto;
+    
+    
+}
+.subitem{
+    flex-basis: 28%;
+    margin: 1%;
+}
+.subitem img{
+   
+width: 100%;
+}
+.cags{
+    max-width: 1280px;
+    display: flex;
+    margin: auto;
+    
+}
+
+a img{
+    width: 100%;
+}
+.hnav1{
+    max-width: 1280px;
+    margin: auto;
+    
+
+}
+.headingrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seeall{
+text-decoration: none;
+color: green;
+font-size: 18px;
+}
