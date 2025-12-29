@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: #F2F2F2;
+}
+.navbar{
+   display: flex;
+
+}
+.navbar img{
+    width: 100%;
+}
+.mainpage{
+
+    max-width: 1400px;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+   
+  
+}
+.mainpage div{
+    width: 100%;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    
+text-align: center;
+
+}
+.formpage{
+    display: flex;
+    
+}
+#amount{
+    
+        appearance: none;
+
+}
+.left{
+    max-width: 40vh;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 200px;
+    justify-content: center;
+  
+}
+.right{
+  
+    display:flex ;
+   
+}
+
+label{
+    font-size: xx-large;
+    font-family: cursive;
+    padding: 0px, 50px;
+}
+#amount{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: #97144D;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+.information h2{
+   font-family:cursive;
+   font-size: 30px;
+   color: #97144D;
+}
+.information p{
+   font-family:cursive;
+   font-size: 15px;
+   color: grey;
+}
+select{
+    padding: 10PX 130PX;
+    border-radius: 10PX;
+}
+
+@media only screen and (max-width:592px){
+    .left{
+        display: none;
+    }
+    #amount{
+        width: 72vw;
+        align-items: center;
+        text-align: center;
+        
+    }
+}
